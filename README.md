@@ -1,6 +1,6 @@
-## Colloid gtk theme
+## Colloid-layla gtk theme
 
-![Colloid](colloid.png?raw=true)
+this is a fork of [Colloid-gtk-theme](https://github.com/vinceliuice/Colloid-gtk-theme) which replaces the default color scheme with my own color scheme
 
 ## Requirements
 
@@ -15,15 +15,11 @@
 
 - `Icon theme` [Colloid](https://github.com/vinceliuice/Colloid-icon-theme)
 
-## Donate
-
-If you like my project, you can buy me a coffee:
-
-<span class="paypal"><a href="https://www.paypal.me/vinceliuice" title="Donate to this project using Paypal"><img src="https://www.paypalobjects.com/webstatic/mktg/Logo/pp-logo-100px.png" alt="PayPal donate button" /></a></span>
-
 ## Installation
 
 ### Manual Installation
+
+please note that the light mode is not really supported with this fork, and also i haven't actually tested any of the color variants
 
 Run the following commands in the terminal:
 
@@ -35,7 +31,7 @@ Run the following commands in the terminal:
 
 ```
 -d, --dest DIR          Specify destination directory (Default: ~/.themes)
--n, --name NAME         Specify theme name (Default: Colloid)
+-n, --name NAME         Specify theme name (Default: Colloid-layla)
 -t, --theme VARIANT...  Specify theme color variant(s) [default|purple|pink|red|orange|yellow|green|teal|grey|all] (Default: blue)
 -c, --color VARIANT...  Specify color variant(s) [standard|light|dark] (Default: All variants)
 -s, --size VARIANT...   Specify size variant [standard|compact] (Default: standard variant)
@@ -69,8 +65,6 @@ Run the following commands in the terminal:
 
 Default ColorSchemes themes will follow the system style now ! (switch [light/dark] mode)
 
-https://github.com/vinceliuice/Colloid-gtk-theme/assets/7604295/d5c24086-08bc-45a4-b4d9-124c02249216
-
 ### Fix for Flatpak
 
 ```sh
@@ -79,21 +73,12 @@ sudo flatpak override --filesystem=xdg-config/gtk-3.0 && sudo flatpak override -
 
 If you use flatpak apps, you can run this to fix theme issue
 
-### ColorSchemes
-
-![colorschemes](colorschemes.png?raw=true)
-
-### Tweaks
-
-![tweaks](tweaks.png?raw=true)
-
 ### Flatpak Installation (gtk-3.0)
 
 Automatically install your host GTK+ theme as a Flatpak. Use this:
 
 - [pakitheme](https://github.com/refi64/pakitheme)
 
-## Firefox theme
-[Install Firefox theme](src/other/firefox)
+### rounded corners fix
 
-![01](src/other/firefox/screenshot.png?raw=true)
+i have an issue with the Colloid gtk theme where it is seemingly supposed to have rounded corners on some of the popup menus, but it has a black background behind it instead of transparency. if you are also having this issue, you can just fix it by using picom rounded corners (my picom.conf file is in this repository if you want to steal it).

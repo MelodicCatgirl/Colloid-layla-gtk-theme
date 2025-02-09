@@ -1,57 +1,57 @@
 // Default Theme Color Palette
 
 // Red
-$red-light: #F44336;
-$red-dark: #E53935;
+$red-light: #b66;
+$red-dark: #844;
 
 // Pink
-$pink-light: #F06292;
-$pink-dark: #EC407A;
+$pink-light: #b68;
+$pink-dark: #846;
 
 // Purple
-$purple-light: #BA68C8;
-$purple-dark: #AB47BC;
+$purple-light: #86b;
+$purple-dark: #648;
 
 // Blue
-$blue-light: #5b9bf8;
-$blue-dark: #3c84f7;
+$blue-light: #86b;
+$blue-dark: #648;
 
 // Teal
-$teal-light: #4DB6AC;
-$teal-dark: #009688;
+$teal-light: #6b8;
+$teal-dark: #486;
 
 // Green
-$green-light: #66BB6A;
-$green-dark: #4CAF50;
+$green-light: #8b6;
+$green-dark: #684;
 
 // Yellow
-$yellow-light: #FFD600;
-$yellow-dark: #FBC02D;
+$yellow-light: #b86;
+$yellow-dark: #864;
 
 // Orange
-$orange-light: #FF8A65;
-$orange-dark: #FF7043;
+$orange-light: #b86;
+$orange-dark: #864;
 
 // Grey
-$grey-050: #FAFAFA;
-$grey-100: #F2F2F2;
-$grey-150: #EEEEEE;
-$grey-200: #DDDDDD;
-$grey-250: #CCCCCC;
-$grey-300: #BFBFBF;
-$grey-350: #A0A0A0;
-$grey-400: #9E9E9E;
-$grey-450: #868686;
-$grey-500: #727272;
-$grey-550: #555555;
-$grey-600: #464646;
-$grey-650: #3C3C3C;
-$grey-700: #2C2C2C;
-$grey-750: #242424;
-$grey-800: #212121;
-$grey-850: #121212;
-$grey-900: #0F0F0F;
-$grey-950: #030303;
+$grey-050: #4d4549;
+$grey-100: #494145;
+$grey-150: #453d41;
+$grey-200: #41393d;
+$grey-250: #3d3539;
+$grey-300: #393135;
+$grey-350: #352d31;
+$grey-400: #31292d;
+$grey-450: #2d2529;
+$grey-500: #292125;
+$grey-550: #251d21;
+$grey-600: #21191d;
+$grey-650: #1d1519;
+$grey-700: #191115; // this one seems to be the main background color
+$grey-750: #191115; // this one seems to be used for the top bar
+$grey-800: #150d11;
+$grey-850: #11090d;
+$grey-900: #0d0509;
+$grey-950: #090105;
 
 // White
 $white: #FFFFFF;
@@ -60,13 +60,13 @@ $white: #FFFFFF;
 $black: #000000;
 
 // Button
-$button-close: #fd5f51;
-$button-max: #38c76a;
-$button-min: #fdbe04;
+$button-close: #b66;
+$button-max: #8b6;
+$button-min: #b86;
 
 // Link
-$links: #5bd3f8;
+$links: #6b8;
 
 // Theme
-$default-light: $blue-light;
-$default-dark: $blue-dark;
+$default-light: $pink-light;
+$default-dark: $pink-dark;

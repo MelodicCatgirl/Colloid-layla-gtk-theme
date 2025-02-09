@@ -5,31 +5,31 @@ for theme in '' '-Purple' '-Pink' '-Red' '-Orange' '-Yellow' '-Green' '-Teal' '-
       if [[ "$color" == '' ]]; then
         case "$theme" in
           '')
-            theme_color='#3c84f7'
+            theme_color='#846'
             ;;
           -Purple)
-            theme_color='#AB47BC'
+            theme_color='#648'
             ;;
           -Pink)
-            theme_color='#EC407A'
+            theme_color='#846'
             ;;
           -Red)
-            theme_color='#E53935'
+            theme_color='#844'
             ;;
           -Orange)
-            theme_color='#F57C00'
+            theme_color='#864'
             ;;
           -Yellow)
-            theme_color='#FBC02D'
+            theme_color='#864'
             ;;
           -Green)
-            theme_color='#4CAF50'
+            theme_color='#684'
             ;;
           -Teal)
-            theme_color='#009688'
+            theme_color='#486'
             ;;
           -Grey)
-            theme_color='#464646'
+            theme_color='#21192d'
             ;;
         esac
 
@@ -200,31 +200,31 @@ for theme in '' '-Purple' '-Pink' '-Red' '-Orange' '-Yellow' '-Green' '-Teal' '-
       else
         case "$theme" in
           '')
-            theme_color='#5b9bf8'
+            theme_color='#b68'
             ;;
           -Purple)
-            theme_color='#BA68C8'
+            theme_color='#86b'
             ;;
           -Pink)
-            theme_color='#F06292'
+            theme_color='#b68'
             ;;
           -Red)
-            theme_color='#F44336'
+            theme_color='#b66'
             ;;
           -Orange)
-            theme_color='#FB8C00'
+            theme_color='#b86'
             ;;
           -Yellow)
-            theme_color='#FFD600'
+            theme_color='#b86'
             ;;
           -Green)
-            theme_color='#66BB6A'
+            theme_color='#8b6'
             ;;
           -Teal)
-            theme_color='#4DB6AC'
+            theme_color='#6b8'
             ;;
           -Grey)
-            theme_color='#DDDDDD'
+            theme_color='#41393d'
             ;;
         esac
 
@@ -396,16 +396,16 @@ for theme in '' '-Purple' '-Pink' '-Red' '-Orange' '-Yellow' '-Green' '-Teal' '-
       if [[ "$type" != '' ]]; then
         cp -r "assets${color}.svg" "assets${theme}${color}${type}.svg"
         if [[ "$color" == '' ]]; then
-          sed -i "s/#3c84f7/${theme_color}/g" "assets${theme}${color}${type}.svg"
+          sed -i "s/#846/${theme_color}/g" "assets${theme}${color}${type}.svg"
         else
-          sed -i "s/#5b9bf8/${theme_color}/g" "assets${theme}${color}${type}.svg"
+          sed -i "s/#b68/${theme_color}/g" "assets${theme}${color}${type}.svg"
         fi
       elif [[ "$theme" != '' ]]; then
         cp -r "assets${color}.svg" "assets${theme}${color}.svg"
         if [[ "$color" == '' ]]; then
-          sed -i "s/#3c84f7/${theme_color}/g" "assets${theme}${color}.svg"
+          sed -i "s/#846/${theme_color}/g" "assets${theme}${color}.svg"
         else
-          sed -i "s/#5b9bf8/${theme_color}/g" "assets${theme}${color}.svg"
+          sed -i "s/#b68/${theme_color}/g" "assets${theme}${color}.svg"
         fi
       fi
 

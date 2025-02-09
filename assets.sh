@@ -14,40 +14,40 @@ make_assets() {
 
   case "$theme" in
     '')
-      theme_color_dark='#3c84f7'
-      theme_color_light='#5b9bf8'
+      theme_color_dark='#846'
+      theme_color_light='#b68'
       ;;
     -Purple)
-      theme_color_dark='#AB47BC'
-      theme_color_light='#BA68C8'
+      theme_color_dark='#648'
+      theme_color_light='#86b'
       ;;
     -Pink)
-      theme_color_dark='#EC407A'
-      theme_color_light='#F06292'
+      theme_color_dark='#846'
+      theme_color_light='#b68'
       ;;
     -Red)
-      theme_color_dark='#E53935'
-      theme_color_light='#F44336'
+      theme_color_dark='#844'
+      theme_color_light='#b66'
       ;;
     -Orange)
-      theme_color_dark='#F57C00'
-      theme_color_light='#FB8C00'
+      theme_color_dark='#864'
+      theme_color_light='#b86'
       ;;
     -Yellow)
-      theme_color_dark='#FBC02D'
-      theme_color_light='#FFD600'
+      theme_color_dark='#864'
+      theme_color_light='#b86'
       ;;
     -Green)
-      theme_color_dark='#4CAF50'
-      theme_color_light='#66BB6A'
+      theme_color_dark='#684'
+      theme_color_light='#8b6'
       ;;
     -Teal)
-      theme_color_dark='#009688'
-      theme_color_light='#4DB6AC'
+      theme_color_dark='#486'
+      theme_color_light='#6b8'
       ;;
     -Grey)
-      theme_color_dark='#464646'
-      theme_color_light='#DDDDDD'
+      theme_color_dark='#21192d' # this color is the same as "gray-600"
+      theme_color_light='#41393d' # this color is the same as "gray-200"
       ;;
   esac
 
@@ -304,11 +304,11 @@ make_assets() {
   else
     case "$scheme" in
       '')
-        background_light='#ffffff'
-        background_dark='#2c2c2c'
-        background_dark_alt='#3c3c3c'
-        titlebar_light='#f2f2f2'
-        titlebar_dark='#242424'
+        background_light='#fef'
+        background_dark='#191115'
+        background_dark_alt='#292125'
+        titlebar_light='#baa'
+        titlebar_dark='#191115'
         ;;
       -Nord)
         background_light='#f8fafc'
@@ -418,9 +418,9 @@ make_assets() {
 
   case "$scheme" in
     '')
-      button_close="#fd5f51"
-      button_max="#38c76a"
-      button_min="#fdbe04"
+      button_close="#b66"
+      button_max="#8b6"
+      button_min="#b86"
       ;;
     -Nord)
       button_close="#bf616a"
