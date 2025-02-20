@@ -1,6 +1,6 @@
-## Colloid-layla gtk theme
+# Colloid-layla gtk theme
 
-this is a fork of [Colloid-gtk-theme](https://github.com/vinceliuice/Colloid-gtk-theme) which replaces the default color scheme with my own color scheme
+this is a fork of [Colloid-gtk-theme](https://github.com/vinceliuice/Colloid-gtk-theme) which replaces the default color scheme with [my own color scheme](https://github.com/MelodicCatgirl/layla-color-scheme)
 
 ## Requirements
 
@@ -13,7 +13,7 @@ this is a fork of [Colloid-gtk-theme](https://github.com/vinceliuice/Colloid-gtk
   - `gtk2-engines-murrine` on Debian, Ubuntu, etc.
 - `sassc` — build dependency
 
-- `Icon theme` [Colloid](https://github.com/vinceliuice/Colloid-icon-theme)
+- `Icon theme` [Colloid-layla](https://github.com/MelodicCatgirl/Colloid-layla-icon-theme)
 
 ## Installation
 
@@ -82,3 +82,20 @@ Automatically install your host GTK+ theme as a Flatpak. Use this:
 ### rounded corners fix
 
 i have an issue with the Colloid gtk theme where it is seemingly supposed to have rounded corners on some of the popup menus, but it has a black background behind it instead of transparency. if you are also having this issue, you can just fix it by using picom rounded corners (my picom.conf file is in this repository if you want to steal it).
+
+## screenshots
+
+**GIMP** (gtk2)
+![GIMP w/ Colloid-layla theme](screenshots/gimp.png)
+
+**Thunar** (gtk3)
+![Thunar w/ Colloid-layla theme](screenshots/thunar.png)
+
+**GHex** (libadwaita)
+![GHex w/ Colloid-layla theme](screenshots/ghex.png)
+
+**KeePassXC** (qt5 w/ qt5-styleplugins)
+![KeePassXC w/ Colloid-layla theme](screenshots/keepassxc.png)
+
+**Dolphin Emulator** (qt6 w/ qt6gtk2)
+![Dolphin Emulator w/ Colloid-layla theme](screenshots/dolphin.png)
